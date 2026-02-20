@@ -74,13 +74,21 @@
 #else:
   #  print("eligibility:" , "you are not eligible")
   
-marks = int(input("Enter Your Marks"))
-if(marks >= 90):
-    print("You got :" , "Grade A")
-elif(90 > marks >= 80):
-    print("You got:", "Grade B")
-elif(80 > marks >= 70):
-    print("You got:", "Grade C")
+#marks = int(input("Enter Your Marks"))
+#if(marks >= 90):
+  #  print("You got :" , "Grade A")
+#elif(90 > marks >= 80):
+ #   print("You got:", "Grade B")
+#elif(80 > marks >= 70):
+  #  print("You got:", "Grade C")
+#else:
+ #   print("You got :", "Grade D")
+     
+age = 88
+if(age >= 18):
+    if(age>=80):
+        print("cannot drive")
+    else:
+        print("can drive")
 else:
-    print("You got :", "Grade D")
-    
+    print("cannot drive")
