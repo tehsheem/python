@@ -84,11 +84,33 @@
 #else:
  #   print("You got :", "Grade D")
      
-age = 88
-if(age >= 18):
-    if(age>=80):
-        print("cannot drive")
-    else:
-        print("can drive")
+#age = 88
+#if(age >= 18):
+   # if(age>=80):
+  #      print("cannot drive")
+ #   else:
+  #      print("can drive")
+#else:
+   # print("cannot drive")
+    
+#a = int(input("input your number"))
+#if(a%2 != 0):
+#  print("NUMBER IS:", "ODD")
+#else:
+ # print("NUMBER IS :", "EVEN")
+ 
+#a = int(input("ENTER FIRST NUMBER"))
+#b = int(input("ENTER SECOND NUMBER"))
+#c = int(input("ENTER THIRD NUMBER"))
+#if(a > b and a > c):
+#  print("greater number is:", a)
+#elif(b > a and b > c):
+#  print("greater number is:", b)
+#else:
+#  print("greater number is:", c)
+  
+a = int(input("enter the number"))
+if(a%7 == 0):
+  print("The number is a multiple of 7")
 else:
-    print("cannot drive")
+  print("The number is not a multiple of 7")
