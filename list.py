@@ -40,11 +40,12 @@
 #     else:
 #         print("list is not")
 
-list = [1, 2, 2, ]
-a = list.copy()
-a.reverse()
-if(a == list):
-    print("yes")
-else:
-    print("no")
+# list = [1, 2, 2, 1]
+# a = list.copy()
+# a.reverse()
+# if(a == list):
+#     print("yes")
+# else:
+#     print("no")
+
 

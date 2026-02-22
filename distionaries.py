@@ -48,18 +48,18 @@ info = {
 # dict.add("cat") =  "a small animal"
 # print(dict)
 
-dict = {}
-a = str(input("enter the sub"))
-b = int(input("enter thr marks"))
-c = str(input("enter the sub"))
-d = int(input("enter thr marks"))
-e = str(input("enter the sub"))
-f = int(input("enter thr marks"))
-ndict = {a : b}
-dict.update(ndict)
-g = {c : d}
-dict.update(g)
-u = {e: f}
-dict.update(u)
+# dict = {}
+# a = str(input("enter the sub"))
+# b = int(input("enter thr marks"))
+# c = str(input("enter the sub"))
+# d = int(input("enter thr marks"))
+# e = str(input("enter the sub"))
+# f = int(input("enter thr marks"))
+# ndict = {a : b}
+# dict.update(ndict)
+# g = {c : d}
+# dict.update(g)
+# u = {e: f}
+# dict.update(u)
 
-print(dict)
+# print(dict)
