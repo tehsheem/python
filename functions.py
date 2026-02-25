@@ -58,21 +58,35 @@
         
 # oddoreven(0)
 
-def fact(a):
-    i = 0
-    n = 1
-    while i < a:
-        if(a-1 == 0):
-            return
-        p = i + 1
-        n = n * p
-        i += 1
-        fact(a-1)    
-    print(n)
-    
-       
-    
+# i = 0
+# n = 1
+# while i < a:
+#     p = i + 1
+#     n = n * p
+#     i += 1
+# print(n)
 
-fact(3)
-        
+# def fact(n):
+#     if( n == 1 or n == 0):
+#         return 1
+#     return n * fact(n - 1)
+
+# print(fact(7))
+
+# def nat(n):
+#     if (n == 1):
+#         return 1
+#     elif(n == 0):
+#         return 0
+#     return n + nat(n-1)
+
+# print(nat(2))
+# list = ["hello", "hi"]
+# def listt(list, ind = 0):
+#     if(len(list) == ind):
+#         return
+#     print(list[ind])
+#     listt(list, ind + 1)
     
+# listt(list)
+
