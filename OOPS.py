@@ -41,17 +41,34 @@
 # print(s2.name, s2.marks)
 # print(Student.collegename)
 
+# class Student:
+    
+#     collegename = "COLLEGE ABC"
+#     def __init__(self, name, marks):
+#         self.name = name
+#         self.marks = marks
+#     print("adding new stuent into the database")
+# s1 = Student("Kakashi", 87)
+# print(s1.name, s1.marks)
+# print(Student.collegename)
+
+# s2 = Student("Sasuke", 89)
+# print(s2.name, s2.marks)
+# print(Student.collegename)
+
 class Student:
     
-    collegename = "COLLEGE ABC"
     def __init__(self, name, marks):
         self.name = name
         self.marks = marks
-    print("adding new stuent into the database")
-s1 = Student("Kakashi", 87)
-print(s1.name, s1.marks)
-print(Student.collegename)
+    @staticmethod
+    def college():
+        print("college ABC")
+    def avg(self):
+        sum = 0
+        for val in self.marks:
+            sum += val
+        print("welcome", self.name, "your avg is", sum/3)
 
-s2 = Student("Sasuke", 89)
-print(s2.name, s2.marks)
-print(Student.collegename)
+s1 = Student("itachi" , [76, 45, 90])
+s1.avg()
